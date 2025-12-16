@@ -7,13 +7,13 @@ import pickle
 from tensorflow.keras.models import load_model
 
 #Load the trained model
-model = load_model('ann_model.h5')
+model = load_model('models/ann_model.h5')
 # Load the scaler and encoders
-with open('scaler.pkl', 'rb') as f:
+with open('models/scaler.pkl', 'rb') as f:
     scaler = pickle.load(f)
-with open('label_encoder_gender.pkl', 'rb') as f:
+with open('models/label_encoder_gender.pkl', 'rb') as f:
     label_encoder = pickle.load(f)
-with open('onehot_encoder_geography.pkl', 'rb') as f:
+with open('models/onehot_encoder_geography.pkl', 'rb') as f:
     onehot_encoder = pickle.load(f)
 
 ### streamlit app
