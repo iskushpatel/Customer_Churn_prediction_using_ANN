@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environments
+venv/
+.venv/
+.env
+.conda-env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+
+# Byte-compiled / cache
+*.egg-info/
+.eggs/
+.dist-info/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
